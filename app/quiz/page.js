@@ -40,8 +40,18 @@ export default function QuizPage() {
 
     const startQuiz = (count) => {
         const shuffled = shuffleArray(allQuestions).slice(0, count);
-        shuffled.forEach(q => delete q.userAnswer);
-        setQuestions(shuffled);
+
+        const randomized = shuffled.map((q) => {
+            const shuffledOptions = shuffleArray(q.options);
+            return {
+                ...q,
+                options: shuffledOptions,
+            };
+        });
+
+        randomized.forEach(q => delete q.userAnswer);
+
+        setQuestions(randomized);
         setCurrentIndex(0);
         setScore(0);
         setSelected(null);
@@ -50,6 +60,7 @@ export default function QuizPage() {
         setElapsedTime(0);
         setHasStarted(true);
     };
+
 
     const handleSelect = (option) => {
         if (selected) return;
