@@ -42,12 +42,14 @@ export default function QuizMenu() {
                     ))}
                 </div>
 
-                <button
-                    onClick={() => router.push('/')}
-                    className="mt-6 text-sm text-gray-500 hover:text-blue-600 hover:underline"
-                >
-                    ← Volver al inicio
-                </button>
+                <div className="mt-4">
+                    <button
+                        onClick={() => window.location.href = '/'}
+                        className="text-xs text-gray-500 hover:text-blue-600 transition underline"
+                    >
+                        ← Inicio
+                    </button>
+                </div>
             </div>
         </main>
     );

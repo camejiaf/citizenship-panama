@@ -229,15 +229,12 @@ export default function QuizPage() {
                             </button>
                         )}
 
-                        <div className="mt-8 text-center">
+                        <div className="mt-4">
                             <button
-                                onClick={() =>
-                                    window.confirm('¿Salir al menú principal? Tu progreso se perderá.') &&
-                                    window.location.replace('/')
-                                }
-                                className="text-sm text-gray-500 hover:text-blue-600 hover:underline"
+                                onClick={() => window.location.href = '/'}
+                                className="text-xs text-gray-500 hover:text-blue-600 transition underline"
                             >
-                                ← Volver al inicio
+                                ← Inicio
                             </button>
                         </div>
                     </>
