@@ -1,6 +1,7 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
     content: ['./app/**/*.{js,ts,jsx,tsx}'],
+    darkMode: 'class',
     theme: {
         extend: {
             fontFamily: {
@@ -19,12 +20,4 @@ module.exports = {
         },
     },
     plugins: [],
-}
-module.exports = {
-    darkMode: 'class', // ← important!
-    content: ['./app/**/*.{js,ts,jsx,tsx}'],
-    theme: {
-        extend: {},
-    },
-    plugins: [],
-}
+};
