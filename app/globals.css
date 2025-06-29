@@ -1,5 +1,7 @@
-@import "@fontsource/inter/latin.css";
-@import "tailwindcss";
+@import '@fontsource/inter/latin.css'; /* if needed */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body {
