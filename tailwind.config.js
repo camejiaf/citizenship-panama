@@ -19,7 +19,7 @@ module.exports = {
         },
     },
     plugins: [],
-};
+}
 module.exports = {
     darkMode: 'class', // ← important!
     content: ['./app/**/*.{js,ts,jsx,tsx}'],
