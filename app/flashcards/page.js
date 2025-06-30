@@ -29,15 +29,26 @@ export default function FlashcardPage() {
     }
 
     return (
-        <main className="min-h-screen bg-[#f9fafb] py-10 px-4 flex flex-col items-center justify-center">
-            <div className="w-full max-w-xl text-center">
+        <main className="relative min-h-screen flex items-center justify-center overflow-hidden">
+            {/* Background image */}
+            <img
+                src="/backgroundquiz.png"
+                alt="Fondo del Modo Flashcards"
+                className="absolute inset-0 w-full h-full object-cover z-0"
+            />
+
+            {/* Optional overlay gradient */}
+            <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/30 to-transparent z-0" />
+
+            {/* Flashcard Content */}
+            <div className="z-10 w-full max-w-xl text-center px-4 py-10">
                 <h1 className="text-2xl font-bold text-gray-900 mb-6">Modo Flashcards</h1>
 
                 <div
-                    className="bg-white dark:bg-zinc-800 border border-gray-300 dark:border-gray-700 rounded-xl p-6 shadow-md cursor-pointer transition hover:shadow-lg"
+                    className="bg-white/80 border border-gray-300 rounded-xl p-6 shadow-md cursor-pointer transition hover:shadow-lg backdrop-blur"
                     onClick={() => setShowAnswer(!showAnswer)}
                 >
-                    <p className="text-lg sm:text-xl font-medium text-gray-800 dark:text-white">
+                    <p className="text-lg sm:text-xl font-medium text-gray-800">
                         {showAnswer ? current.answer : current.question}
                     </p>
                     <p className="text-sm text-gray-500 mt-2">
@@ -48,7 +59,7 @@ export default function FlashcardPage() {
                 <div className="flex justify-between mt-8 gap-4">
                     <button
                         onClick={prev}
-                        className="bg-gray-200 dark:bg-zinc-700 hover:bg-gray-300 dark:hover:bg-zinc-600 text-gray-800 dark:text-white font-medium py-2 px-4 rounded-lg transition"
+                        className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded-lg transition"
                     >
                         Anterior
                     </button>
@@ -60,27 +71,28 @@ export default function FlashcardPage() {
                     </button>
                 </div>
 
-                <p className="mt-4 text-sm text-gray-500">
+                <p className="mt-4 text-sm text-black">
                     Tarjeta {index + 1} de {flashcards.length}
                 </p>
 
                 <div className="mt-6">
                     <button
                         onClick={() => router.push('/quiz')}
-                        className="text-sm text-blue-600 hover:underline"
+                        className="text-sm text-black hover:underline"
                     >
                         Ir a modo Examen →
                     </button>
                 </div>
+
                 <div className="mt-4">
                     <button
                         onClick={() => window.location.href = '/'}
-                        className="text-xs text-gray-500 hover:text-blue-600 transition underline"
+                        className="text-xs text-black  hover:text-blue-600 transition underline"
                     >
                         ← Inicio
                     </button>
                 </div>
             </div>
-        </main>
+        </main >
     );
 }
