@@ -66,9 +66,11 @@ export default function QuizPage() {
 
         if (correct) {
             setScore((prev) => prev + 1);
-            setTimeout(() => nextQuestion(), 1500);
         }
+
+        setTimeout(() => nextQuestion(), 1500); // Always wait 1.5s regardless
     };
+
 
     const nextQuestion = () => {
         if (currentIndex + 1 < questions.length) {
@@ -183,14 +185,7 @@ export default function QuizPage() {
                                 ))}
                             </div>
 
-                            {!isCorrect && selected && (
-                                <button
-                                    onClick={nextQuestion}
-                                    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-full"
-                                >
-                                    Siguiente
-                                </button>
-                            )}
+
 
                             <div className="mt-4 text-center">
                                 <button

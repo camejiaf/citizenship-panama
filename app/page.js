@@ -46,6 +46,13 @@ export default function Home() {
         >
           Estudiar con Flashcards
         </button>
+        <button
+          onClick={() => router.push('/recursos')}
+          className="bg-yellow-500 hover:bg-yellow-600 text-white text-lg font-medium py-3 px-8 rounded-full shadow-md transition mt-4"
+        >
+          Recursos Oficiales y Culturales
+        </button>
+
       </div>
 
       <a
