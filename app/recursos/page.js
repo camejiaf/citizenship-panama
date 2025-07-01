@@ -1,5 +1,8 @@
+'use client';
+
+import Link from "next/link";
+import Image from "next/image";
 import {
-    BookOpen,
     Globe,
     Building,
     GraduationCap,
@@ -13,26 +16,26 @@ export default function RecursosPage() {
         <main className="relative min-h-screen text-gray-800 px-6 py-12 overflow-hidden">
             {/* Mola-Inspired Background */}
             <div className="absolute inset-0 z-0">
-                <img
+                <Image
                     src="/mola.png"
                     alt="Fondo inspirado en mola"
-                    className="w-full h-full object-cover object-center sm:object-top"
+                    fill
+                    className="object-cover object-center sm:object-top"
+                    priority
                 />
             </div>
 
-            {/* Page Content */}
+            {/* Page Title */}
             <div className="flex justify-center mb-16 mt-4 relative z-10">
-                <div className="bg-white/90 border-2  rounded-full px-5 py-5 shadow-lg text-center">
+                <div className="bg-white/90 border-2 rounded-full px-5 py-5 shadow-lg text-center">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
                         Recursos para Futuros Ciudadanos
                     </h1>
                 </div>
             </div>
 
-
-            <div className="grid gap-8 md:grid-cols-2 items-stretch">
-
-                {/* Section: Trámites */}
+            {/* Resource Sections */}
+            <div className="grid gap-8 md:grid-cols-2 relative z-10">
                 <Section
                     title="Trámites y Naturalización"
                     icon={<Building className="text-blue-600 w-6 h-6 mr-2" />}
@@ -43,8 +46,6 @@ export default function RecursosPage() {
                         ["Presidencia de la República", "https://www.presidencia.gob.pa/"],
                     ]}
                 />
-
-                {/* Section: Cultura */}
                 <Section
                     title="Cultura, Historia y Turismo"
                     icon={<Globe className="text-green-600 w-6 h-6 mr-2" />}
@@ -55,8 +56,6 @@ export default function RecursosPage() {
                         ["Ministerio de Cultura", "https://micultura.gob.pa/"],
                     ]}
                 />
-
-                {/* Section: Universidades */}
                 <Section
                     title="Universidades en Panamá"
                     icon={<GraduationCap className="text-purple-600 w-6 h-6 mr-2" />}
@@ -67,8 +66,6 @@ export default function RecursosPage() {
                         ["Universidad Latina", "https://www.ulatina.edu.pa/"],
                     ]}
                 />
-
-                {/* Section: Malls */}
                 <Section
                     title="Centros Comerciales"
                     icon={<ShoppingBag className="text-pink-600 w-6 h-6 mr-2" />}
@@ -79,8 +76,6 @@ export default function RecursosPage() {
                         ["Metromall", "https://www.metromallpanama.com/"],
                     ]}
                 />
-
-                {/* Section: Salud */}
                 <Section
                     title="Salud y Bienestar"
                     icon={<Stethoscope className="text-red-600 w-6 h-6 mr-2" />}
@@ -91,8 +86,6 @@ export default function RecursosPage() {
                         ["Hospital Nacional", "https://www.hospitalnacional.com/"],
                     ]}
                 />
-
-                {/* Section: Medios */}
                 <Section
                     title="Medios de Comunicación"
                     icon={<Newspaper className="text-yellow-600 w-6 h-6 mr-2" />}
@@ -107,7 +100,6 @@ export default function RecursosPage() {
 
             {/* Inspirational Quote */}
             <div className="mt-16 text-center px-4 relative z-10">
-
                 <blockquote className="text-lg sm:text-xl italic text-white drop-shadow-md">
                     “Cuando parece que todas las esperanzas se nos agotan y el camino se torna más oscuro y amenazador,
                     es el momento de hacer brillar la luz interior que todos poseemos.”
@@ -117,24 +109,22 @@ export default function RecursosPage() {
                 </p>
             </div>
 
-            {/* Back to Home */}
-            <div className="mt-12 text-center">
-                <a
+            {/* Back to Home Button */}
+            <div className="mt-12 text-center relative z-10">
+                <Link
                     href="/"
                     className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-3 px-8 rounded-full shadow-lg transition"
                 >
                     ← Volver al Inicio
-                </a>
+                </Link>
             </div>
-        </main >
+        </main>
     );
 }
 
 function Section({ title, icon, links, color }) {
     return (
         <section className="flex flex-col justify-between bg-white/95 p-4 md:p-5 rounded-xl shadow-md border border-gray-100 backdrop-blur-sm h-full">
-
-
             <div className="flex items-center mb-4">
                 {icon}
                 <h2 className="text-xl font-semibold">{title}</h2>
