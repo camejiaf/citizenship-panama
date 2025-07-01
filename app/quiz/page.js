@@ -90,13 +90,12 @@ export default function QuizPage() {
         setShowResult(false);
         setElapsedTime(0);
     };
-
     const Background = () => (
-        <img
-            src="/backgroundquiz.png"
-            alt="Quiz Background"
-            className="absolute inset-0 w-full h-full object-cover z-0"
+        <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+            style={{ backgroundImage: "url('/backgroundquiz.png')" }}
         />
+
     );
 
     return (
@@ -126,17 +125,19 @@ export default function QuizPage() {
                             <p className="text-center mb-2 text-gray-800">Obtuviste {score} de {questions.length} correctas.</p>
                             <p className="text-center text-sm text-gray-600 mb-6">⏱ Tiempo total: {formatTime(elapsedTime)}</p>
 
-                            {questions.map((q, index) => (
-                                <div key={index} className="border rounded-lg p-4 mb-4">
-                                    <p className="font-medium">{index + 1}. {q.question}</p>
-                                    <p className={`mt-1 text-sm ${q.userAnswer === q.correctAnswer ? 'text-green-600' : 'text-red-600'}`}>
-                                        Tu respuesta: {q.userAnswer || 'No contestada'}
-                                    </p>
-                                    {q.userAnswer !== q.correctAnswer && (
-                                        <p className="text-sm text-gray-500">Correcta: {q.correctAnswer}</p>
-                                    )}
-                                </div>
-                            ))}
+                            <div className="bg-white/90 rounded-lg p-2 max-h-[400px] overflow-y-auto mb-4 shadow-inner">
+                                {questions.map((q, index) => (
+                                    <div key={index} className="border rounded-lg p-4 mb-4">
+                                        <p className="font-medium">{index + 1}. {q.question}</p>
+                                        <p className={`mt-1 text-sm ${q.userAnswer === q.correctAnswer ? 'text-green-600' : 'text-red-600'}`}>
+                                            Tu respuesta: {q.userAnswer || 'No contestada'}
+                                        </p>
+                                        {q.userAnswer !== q.correctAnswer && (
+                                            <p className="text-sm text-gray-500">Correcta: {q.correctAnswer}</p>
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
 
                             <div className="flex justify-center gap-4 mt-4">
                                 <button onClick={resetQuiz} className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-full">Reintentar</button>
@@ -158,7 +159,7 @@ export default function QuizPage() {
 
                             {selected && (
                                 <p className={`mb-4 font-medium ${isCorrect ? 'text-green-600' : 'text-red-600'}`}>
-                                    {isCorrect ? '¡Correcto!' : `Incorrecto. La respuesta correcta es: ${currentQuestion.correctAnswer}`}
+                                    {isCorrect ? '¡Correcto!' : 'Incorrecto'}
                                 </p>
                             )}
 

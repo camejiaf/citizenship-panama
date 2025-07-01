@@ -1,53 +1,53 @@
 [
     {
-        "question": "¿Qué es la Constitución Política de la República?",
+        "question": "¿Qué es la Constitución Política de la Repúblic o Carta Magna?",
         "options": [
             "Es un código penal que establece las sanciones por delitos graves en el país.",
             "Es el reglamento interno de la Asamblea Nacional para la aprobación de leyes.",
             "Es un tratado internacional que regula las relaciones entre Panamá y otros países.",
             "Es el conjunto de normas fundamentales o supremas que organizan el Estado panameño y del cual se derivan y rigen todas las otras normas legales de la nación. También se le conoce como Carta Magna."
         ],
-        "correctAnswer": "Es el conjunto de normas fundamentales o supremas que organizan el Estado panameño y del cual se derivan y rigen todas las otras normas legales de la nación. También se le conoce como Carta Magna."
+        "correctAnswer": "Es el conjunto de normas fundamentales o supremas que organizan el Estado panameño y del cual se derivan y rigen todas las otras normas legales de la nación."
     },
     {
         "question": "¿Cuáles han sido las constituciones políticas que ha tenido la República de Panamá?",
         "options": [
             "Constitución de 1903, Constitución de 1936, Constitución de 1950 y la de 1990, la cual fue modificada por reformas en 1995 y 1998.",
-            "Constitución de 1904, Constitución de 1941, Constitución de 1946 y la Constitución de 1972 (vigente), la cual ha sido reformada por los Actos Reformatorios de 1978, por el Acto Constitucional de 1983 y los Actos Legislativos de 1993, 1994 y 2004.",
+            "Constitución de 1904, Constitución de 1941, Constitución de 1946 y la Constitución de 1972, reformada por los Actos Reformatorios de 1978, Acto Constitucional de 1983 y Actos Legislativos de 1993, 1994 y 2004.",
             "Constitución de 1905, Constitución de 1940, Constitución de 1952 y la de 1987, reformada parcialmente en 1991 y 1996.",
             "Constitución de 1910, Constitución de 1933, Constitución de 1945 y la de 1980, reformada por decretos en 1984 y 1992."
         ],
-        "correctAnswer": "Constitución de 1904, Constitución de 1941, Constitución de 1946 y la Constitución de 1972 (vigente), la cual ha sido reformada por los Actos Reformatorios de 1978, por el Acto Constitucional de 1983 y los Actos Legislativos de 1993, 1994 y 2004."
+        "correctAnswer": "Constitución de 1904, Constitución de 1941, Constitución de 1946 y la Constitución de 1972, reformada por los Actos Reformatorios de 1978, Acto Constitucional de 1983 y Actos Legislativos de 1993, 1994 y 2004."
     },
     {
         "question": "¿Qué se entiende por Gobierno y cuáles son las características del Gobierno panameño, según la Constitución Política?",
         "options": [
             "El gobierno es una entidad económica encargada de regular el mercado y los precios. Según la Constitución, el Gobierno panameño es federal, autoritario, técnico y hereditario.",
             "El gobierno es una organización privada que administra servicios sociales. De acuerdo con la Constitución, el Gobierno panameño es descentralizado, teocrático, militar y temporal.",
-            "El gobierno es el conjunto de instituciones u organismos administrativos y políticos que dirigen un Estado. De acuerdo a la Constitución Política de Panamá, el Gobierno panameño se caracteriza por ser: unitario, republicano, democrático y representativo.",
+            "El gobierno es el conjunto de instituciones u organismos administrativos y políticos que dirigen un Estado, el Gobierno panameño es unitario, republicano, democrático y representativo.",
             "El gobierno es una asociación civil de funcionarios encargados de implementar políticas locales. Según la Constitución, el Gobierno panameño es mixto, participativo, regional y simbólico."
         ],
-        "correctAnswer": "El gobierno es el conjunto de instituciones u organismos administrativos y políticos que dirigen un Estado. De acuerdo a la Constitución Política de Panamá, el Gobierno panameño se caracteriza por ser: unitario, republicano, democrático y representativo."
+        "correctAnswer": "El gobierno es el conjunto de instituciones u organismos administrativos y políticos que dirigen un Estado, el Gobierno panameño es unitario, republicano, democrático y representativo."
     },
     {
-        "question": "¿Cuáles son los principales derechos y garantías individuales que consagra la Constitución Política de la República de Panamá?",
+        "question": "¿Cuáles son los principales derechos y garantías individuales según la Constitución de Panamá?",
         "options": [
-            "La Constitución garantiza únicamente el derecho a la educación, al trabajo estatal, y a votar en elecciones nacionales. También protege a los partidos políticos y promueve la centralización del poder.",
-            "La Constitución protege los derechos relacionados con la economía nacional, incluyendo el control del comercio, la regulación salarial y la prioridad del desarrollo industrial sobre los derechos individuales.",
-            "La Constitución consagra los siguientes derechos y garantías individuales: derecho de igualdad ante la ley, libertad de pensamiento y expresión, libertad de reunión y asociación, libertad de conciencia, culto y enseñanza, libertad de tránsito, el derecho a la propiedad privada, la inviolabilidad del domicilio y la correspondencia, libertad individual, el derecho de petición y derecho al debido proceso.",
-            "La Constitución garantiza derechos colectivos como la defensa del Estado, el servicio militar obligatorio, la vigilancia del comportamiento civil y la prioridad del interés gubernamental sobre los intereses personales."
+            "Educación, trabajo estatal, voto nacional y centralización del poder.",
+            "Control económico, salarios regulados y prioridad industrial sobre derechos.",
+            "Igualdad ante la ley, libertad de expresión, culto, reunión, tránsito, propiedad y debido proceso.",
+            "Defensa del Estado, servicio militar obligatorio y prioridad del interés gubernamental."
         ],
-        "correctAnswer": "La Constitución consagra los siguientes derechos y garantías individuales: derecho de igualdad ante la ley, libertad de pensamiento y expresión, libertad de reunión y asociación, libertad de conciencia, culto y enseñanza, libertad de tránsito, el derecho a la propiedad privada, la inviolabilidad del domicilio y la correspondencia, libertad individual, el derecho de petición y derecho al debido proceso."
+        "correctAnswer": "Igualdad ante la ley, libertad de expresión, culto, reunión, tránsito, propiedad y debido proceso."
     },
     {
         "question": "¿Cuáles son los derechos sociales, económicos y culturales más importantes que promueve y protege nuestra Constitución?",
         "options": [
-            "Los derechos sociales se centran principalmente en la exportación de bienes, el crecimiento empresarial, la censura cultural y el control del sistema educativo mediante entidades privadas.",
-            "La Constitución promueve derechos como el desarrollo tecnológico exclusivo, la privatización de la salud pública, la inversión extranjera como eje económico y la restricción de actividades culturales tradicionales.",
-            "La Constitución protege derechos sociales, económicos y culturales como la familia, el trabajo, la cultura nacional, la educación, la salud, la asistencia y seguridad social, el régimen ecológico y el régimen agrario.",
-            "Los derechos garantizados por la Constitución incluyen únicamente el comercio exterior, la independencia empresarial, la eliminación de subsidios sociales y la centralización cultural desde el gobierno."
+            "Exportación de bienes, crecimiento empresarial, censura cultural y control educativo privado.",
+            "Tecnología exclusiva, privatización de salud, inversión extranjera y restricción cultural.",
+            "Familia, trabajo, cultura, educación, salud, seguridad social, ecología y agricultura.",
+            "Comercio exterior, empresas independientes, menos subsidios y control cultural estatal."
         ],
-        "correctAnswer": "La Constitución protege derechos sociales, económicos y culturales como la familia, el trabajo, la cultura nacional, la educación, la salud, la asistencia y seguridad social, el régimen ecológico y el régimen agrario."
+        "correctAnswer": "Familia, trabajo, cultura, educación, salud, seguridad social, ecología y agricultura."
     },
     {
         "question": "¿Qué es la nacionalidad?",
@@ -72,62 +72,62 @@
     {
         "question": "¿Quiénes son nacionales panameños por nacimiento?",
         "options": [
-            "Las personas nacidas en cualquier país miembro del SICA, siempre que hayan vivido al menos cinco años en Panamá y tengan ascendencia hispanoamericana.",
-            "Son panameños por nacimiento: los nacidos dentro del territorio nacional; los hijos de padre o madre panameños por nacimiento, nacidos fuera del territorio de la República, si establecen su domicilio en el territorio nacional; y los hijos de padre o madre panameños por naturalización, nacidos fuera del territorio nacional, si aquellos establecen su domicilio en la República de Panamá y manifiestan libremente su voluntad de acogerse a la nacionalidad panameña, a más tardar un año después de su mayoría de edad.",
-            "Todos los individuos que residan en el país por más de diez años, independientemente de su lugar de nacimiento, si participan activamente en procesos cívicos.",
-            "Quienes hayan nacido en el extranjero y tengan abuelos panameños, y además hayan realizado estudios superiores en Panamá por un periodo mínimo de tres años."
+            "Nacidos en países del SICA, con 5 años en Panamá y ascendencia hispanoamericana.",
+            "Nacidos en Panamá; hijos de panameños nacidos o naturalizados si viven en Panamá y lo solicitan antes del año tras su mayoría de edad.",
+            "Quienes vivan 10 años en Panamá, sin importar su origen, y participen en procesos cívicos.",
+            "Nacidos en el extranjero con abuelos panameños y estudios superiores en Panamá por 3 años."
         ],
-        "correctAnswer": "Son panameños por nacimiento: los nacidos dentro del territorio nacional; los hijos de padre o madre panameños por nacimiento, nacidos fuera del territorio de la República, si establecen su domicilio en el territorio nacional; y los hijos de padre o madre panameños por naturalización, nacidos fuera del territorio nacional, si aquellos establecen su domicilio en la República de Panamá y manifiestan libremente su voluntad de acogerse a la nacionalidad panameña, a más tardar un año después de su mayoría de edad."
+        "correctAnswer": "Nacidos en Panamá; hijos de panameños nacidos o naturalizados si viven en Panamá y lo solicitan antes del año tras su mayoría de edad."
     },
     {
         "question": "¿Quiénes pueden solicitar la nacionalidad panameña por naturalización?",
         "options": [
             "Solamente los extranjeros que hayan cursado estudios universitarios en Panamá durante al menos 10 años y sean propietarios de un negocio registrado en el país, sin necesidad de renunciar a su nacionalidad de origen.",
-            "Pueden hacerlo las siguientes personas: los extranjeros con cinco (5) años consecutivos de residencia en el territorio de la República, si después de haber alcanzado su mayoría de edad declaran su voluntad de naturalizarse, renuncian expresamente a su nacionalidad de origen o a la que tengan, y comprueban que poseen dominio del idioma español y conocimientos básicos de geografía, historia y organización política panameña; los extranjeros con tres (3) años consecutivos de residencia en el territorio de la República que tengan hijos nacidos en esta, de padre o madre panameños o cónyuge de nacionalidad panameña, si hacen la declaración y presentan la comprobación descrita en el punto anterior; y los nacionales por nacimiento, de España o de un estado latinoamericano, si llenan los mismos requisitos que, en su país de origen, se exigen a los panameños para naturalizarse.",
+            "Pueden solicitarla: extranjeros con 5 años consecutivos de residencia, que renuncien a su nacionalidad anterior y demuestren dominio del español y conocimientos de cultura panameña; con 3 años de residencia si tienen hijos o cónyuge panameños; y nacionales por nacimiento de España o países latinoamericanos que cumplan los mismos requisitos que se exigen a panameños en su país.",
             "Los ciudadanos que participen en programas de voluntariado nacional o que demuestren inversiones superiores a un millón de balboas en sectores clave como turismo y telecomunicaciones.",
             "Solo personas nacidas en países miembros de la Unión Europea, con al menos dos años de residencia temporal en Panamá y conocimientos básicos del idioma inglés y francés."
         ],
-        "correctAnswer": "Pueden hacerlo las siguientes personas: los extranjeros con cinco (5) años consecutivos de residencia en el territorio de la República, si después de haber alcanzado su mayoría de edad declaran su voluntad de naturalizarse, renuncian expresamente a su nacionalidad de origen o a la que tengan, y comprueban que poseen dominio del idioma español y conocimientos básicos de geografía, historia y organización política panameña; los extranjeros con tres (3) años consecutivos de residencia en el territorio de la República que tengan hijos nacidos en esta, de padre o madre panameños o cónyuge de nacionalidad panameña, si hacen la declaración y presentan la comprobación descrita en el punto anterior; y los nacionales por nacimiento, de España o de un estado latinoamericano, si llenan los mismos requisitos que, en su país de origen, se exigen a los panameños para naturalizarse."
+        "correctAnswer": "Pueden solicitarla: extranjeros con 5 años consecutivos de residencia, que renuncien a su nacionalidad anterior y demuestren dominio del español y conocimientos de cultura panameña; con 3 años de residencia si tienen hijos o cónyuge panameños; y nacionales por nacimiento de España o países latinoamericanos que cumplan los mismos requisitos que se exigen a panameños en su país."
     },
     {
         "question": "¿Quiénes son panameños por disposición constitucional?",
         "options": [
-            "Todos los residentes extranjeros con más de quince años viviendo en Panamá, sin importar su edad al momento de la solicitud.",
-            "Los ciudadanos de países vecinos que hayan obtenido visas permanentes antes de los cinco años de edad.",
-            "Son panameños por disposición constitucional y sin necesidad de carta de naturaleza, los nacidos en el extranjero y adoptados por nacionales panameños antes de cumplir siete años de edad.",
-            "Las personas nacidas en Panamá que luego adoptan otra nacionalidad, siempre que mantengan residencia en territorio panameño."
+            "Extranjeros con más de 15 años de residencia, sin importar su edad.",
+            "Ciudadanos de países vecinos con visa permanente antes de los 5 años.",
+            "Nacidos en el extranjero, adoptados por panameños antes de los 7 años.",
+            "Nacidos en Panamá que adoptan otra nacionalidad pero viven en el país."
         ],
-        "correctAnswer": "Son panameños por disposición constitucional y sin necesidad de carta de naturaleza, los nacidos en el extranjero y adoptados por nacionales panameños antes de cumplir siete años de edad."
+        "correctAnswer": "Nacidos en el extranjero, adoptados por panameños antes de los 7 años."
     },
     {
         "question": "¿Qué es el sufragio y qué se requiere para ejercerlo?",
         "options": [
             "El sufragio es una obligación económica del ciudadano para financiar partidos políticos, y se requiere tener empleo formal para ejercerlo.",
             "El sufragio es una actividad opcional relacionada con encuestas nacionales. Solo se puede ejercer mediante registro digital aprobado por el Tribunal Electoral.",
-            "El sufragio es el derecho y el deber que tiene todo ciudadano de intervenir en la organización y marcha del Estado, por medio de consultas populares (elecciones, referendos, plebiscitos). Lo anterior, incluye el derecho de elegir, y ser elegido a cargos de elección popular.",
+            "El sufragio es el derecho y el deber que tiene todo ciudadano de intervenir en la organización y marcha del Estado, por medio de consultas populares.",
             "El sufragio es un permiso concedido por el gobierno que permite participar en programas civiles, siempre que se tenga una licencia de residencia vigente."
         ],
-        "correctAnswer": "El sufragio es el derecho y el deber que tiene todo ciudadano de intervenir en la organización y marcha del Estado, por medio de consultas populares (elecciones, referendos, plebiscitos). Lo anterior, incluye el derecho de elegir, y ser elegido a cargos de elección popular."
+        "correctAnswer": "El sufragio es el derecho y el deber que tiene todo ciudadano de intervenir en la organización y marcha del Estado, por medio de consultas populares."
     },
     {
         "question": "¿Qué se necesita para ejercer el derecho al sufragio?",
         "options": [
-            "Haber completado estudios secundarios, residir en Panamá por más de diez años, y estar afiliado a un partido político reconocido por el Tribunal Electoral.",
-            "Ser ciudadano panameño, aparecer en el padrón electoral final, presentar la cédula de identidad personal, y estar en pleno goce de los derechos civiles y políticos.",
-            "Tener nacionalidad panameña, contar con ingresos mínimos establecidos por ley, y haber participado en procesos electorales anteriores.",
-            "Contar con cédula juvenil, haber asistido a seminarios de educación cívica, y registrarse como votante en una junta comunal autorizada."
+            "Estudios secundarios, 10 años en Panamá y afiliación a un partido político.",
+            "Ser panameño, estar en el padrón, tener cédula y gozar de derechos civiles y políticos.",
+            "Nacionalidad panameña, ingresos mínimos y participación electoral previa.",
+            "Cédula juvenil, seminarios cívicos y registro en una junta comunal."
         ],
-        "correctAnswer": "Ser ciudadano panameño, aparecer en el padrón electoral final, presentar la cédula de identidad personal, y estar en pleno goce de los derechos civiles y políticos."
+        "correctAnswer": "Ser panameño, estar en el padrón, tener cédula y gozar de derechos civiles y políticos."
     },
     {
-        "question": "¿Cuáles son los cargos públicos que son elegidos por votación popular y cuál es la duración de su periodo?",
+        "question": "¿Cuáles cargos públicos se eligen por votación popular y cuánto dura su periodo?",
         "options": [
-            "Los cargos elegidos por votación popular son presidente, senadores provinciales, fiscales regionales y defensores comunitarios, todos por un periodo de seis años. Inician sus funciones el 1 de enero posterior a las elecciones.",
-            "En Panamá existen cargos públicos elegidos por votación popular directa, el mismo día, y por un periodo de cinco años. Inician sus funciones el 1 de julio siguiente a la elección. Se eligen el presidente y vicepresidente, los diputados al Parlamento Centroamericano, los diputados a la Asamblea Nacional por circuito, los alcaldes por distrito, los representantes de corregimiento y los concejales en distritos con menos de cinco corregimientos.",
-            "Los ciudadanos eligen por votación popular al presidente, gobernadores de provincia, ministros del gabinete y jueces de paz, quienes ejercen por un periodo de cuatro años y asumen funciones el 15 de agosto.",
-            "Los cargos elegidos por votación popular incluyen presidente, jefe de gabinete, secretarios de corregimiento y directores municipales, todos con un mandato de cinco años que inicia el 1 de mayo."
+            "Presidente, senadores, fiscales y defensores; periodo de 6 años desde enero.",
+            "Presidente, vicepresidente, diputados, alcaldes, representantes y concejales.",
+            "Presidente, gobernadores, ministros y jueces; periodo de 4 años desde agosto.",
+            "Presidente, gabinete, secretarios y directores; mandato de 5 años desde mayo."
         ],
-        "correctAnswer": "En Panamá existen cargos públicos elegidos por votación popular directa, el mismo día, y por un periodo de cinco años. Inician sus funciones el 1 de julio siguiente a la elección. Se eligen el presidente y vicepresidente, los diputados al Parlamento Centroamericano, los diputados a la Asamblea Nacional por circuito, los alcaldes por distrito, los representantes de corregimiento y los concejales en distritos con menos de cinco corregimientos."
+        "correctAnswer": "Presidente, vicepresidente, diputados, alcaldes, representantes y concejales."
     },
     {
         "question": "¿Cuáles son los órganos del Estado panameño?",
@@ -152,52 +152,52 @@
     {
         "question": "¿Cuáles son los requisitos constitucionales para ser presidente o vicepresidente de la República?",
         "options": [
-            "Ser panameño por nacimiento, haber cumplido treinta y cinco años de edad, y no haber sido condenado por delito doloso con pena privativa de libertad de cinco años o más, mediante sentencia ejecutoriada proferida por un tribunal de justicia.",
+            "Ser panameño por nacimiento, haber cumplido treinta y cinco años de edad, y no haber sido condenado por delitos con pena de libertad de cinco años o más.",
             "Tener al menos cuarenta años de edad, haber sido servidor público y contar con una licenciatura en derecho o administración pública.",
             "Ser panameño o extranjero residente con más de veinte años de residencia continua en el país y haber ocupado un cargo legislativo previamente.",
             "Haber nacido en territorio centroamericano, ser mayor de treinta años y contar con respaldo de una coalición política nacional."
         ],
-        "correctAnswer": "Ser panameño por nacimiento, haber cumplido treinta y cinco años de edad, y no haber sido condenado por delito doloso con pena privativa de libertad de cinco años o más, mediante sentencia ejecutoriada proferida por un tribunal de justicia."
+        "correctAnswer": "Ser panameño por nacimiento, haber cumplido treinta y cinco años de edad, y no haber sido condenado por delitos con pena de libertad de cinco años o más."
     },
     {
-        "question": "¿Cuáles son los ministerios que forman la administración pública, y cuáles son sus funciones?",
+        "question": "¿Cuáles ministerios forman la administración pública y qué funciones tienen?",
         "options": [
-            "La administración pública está conformada por el Ministerio de Transporte y Turismo, el Ministerio de Cultura Popular, y el Ministerio de Innovación Digital, encargados de coordinar exclusivamente las actividades recreativas y tecnológicas del país.",
-            "La administración pública está integrada por el Ministerio de la Presidencia, Gobierno, Relaciones Exteriores, Obras Públicas, Educación, Desarrollo Agropecuario, Trabajo y Desarrollo Laboral, Salud, Vivienda y Ordenamiento Territorial, Economía y Finanzas, Comercio e Industrias, Desarrollo Social, Seguridad Pública, Ambiente y Asuntos del Canal; cada uno con funciones específicas orientadas al desarrollo nacional en áreas como salud, educación, ambiente, seguridad, economía y relaciones exteriores.",
-            "Los ministerios que forman parte de la administración pública son únicamente aquellos encargados de la seguridad nacional, como el Ministerio de Defensa, Inteligencia y Orden Público, con funciones orientadas al control militar del territorio.",
-            "La administración pública panameña se estructura mediante tres grandes bloques: el bloque económico, el bloque cultural y el bloque humanitario. Cada bloque agrupa funciones básicas del Estado sin una distinción ministerial clara, lo que permite una gestión centralizada."
+            "Transporte, Cultura Popular e Innovación, enfocados en recreación y tecnología.",
+            "Presidencia, Gobierno, Relaciones Exteriores, Obras Públicas, Educación, Salud, Economía, Comercio, Seguridad, Ambiente y Canal.",
+            "Solo Defensa, Inteligencia y Orden Público; se encargan del control militar.",
+            "Se organiza por bloques económicos, culturales y humanitarios, sin ministerios definidos."
         ],
-        "correctAnswer": "La administración pública está integrada por el Ministerio de la Presidencia, Gobierno, Relaciones Exteriores, Obras Públicas, Educación, Desarrollo Agropecuario, Trabajo y Desarrollo Laboral, Salud, Vivienda y Ordenamiento Territorial, Economía y Finanzas, Comercio e Industrias, Desarrollo Social, Seguridad Pública, Ambiente y Asuntos del Canal; cada uno con funciones específicas orientadas al desarrollo nacional en áreas como salud, educación, ambiente, seguridad, economía y relaciones exteriores."
+        "correctAnswer": "Presidencia, Gobierno, Relaciones Exteriores, Obras Públicas, Educación, Salud, Economía, Comercio, Seguridad, Ambiente y Canal."
     },
     {
         "question": "¿Qué es el Consejo de Gabinete?",
         "options": [
-            "Es un grupo consultivo formado por los presidentes de partidos políticos y representantes del Tribunal Electoral, cuya función principal es aprobar reformas constitucionales.",
-            "Es la reunión del presidente de la república, quien lo preside, con el encargado de la Presidencia, vicepresidente y los ministros de Estado. También participa el presidente de la Junta Directiva del Canal de Panamá como ministro para los Asuntos del Canal, con derecho a voz y voto.",
-            "Es una comisión especial de la Asamblea Nacional que evalúa proyectos económicos y sociales antes de ser debatidos en el pleno legislativo.",
-            "Es una entidad autónoma que agrupa a los gobernadores provinciales, responsables de supervisar el cumplimiento de políticas municipales y rurales."
+            "Grupo consultivo con presidentes de partidos y el Tribunal Electoral para reformas constitucionales.",
+            "Reunión del presidente, vicepresidente, encargado de la Presidencia y ministros de Estado.",
+            "Comisión de la Asamblea que evalúa proyectos económicos y sociales antes del pleno.",
+            "Entidad autónoma de gobernadores que supervisan políticas municipales y rurales."
         ],
-        "correctAnswer": "Es la reunión del presidente de la república, quien lo preside, con el encargado de la Presidencia, vicepresidente y los ministros de Estado. También participa el presidente de la Junta Directiva del Canal de Panamá como ministro para los Asuntos del Canal, con derecho a voz y voto."
+        "correctAnswer": "Reunión del presidente, vicepresidente, encargado de la Presidencia y ministros de Estado."
     },
     {
         "question": "¿Cómo está constituido el Órgano Legislativo?",
         "options": [
-            "El Órgano Legislativo está constituido por la Junta Nacional Electoral, formada por delegados provinciales designados por el Tribunal Electoral, que aprueban leyes por mayoría simple.",
-            "El Órgano Legislativo está constituido por una corporación denominada Asamblea Nacional, integrada por los diputados, elegidos por votación popular directa, conforme a los circuitos electorales en los que ha sido dividido el país, de conformidad con la Constitución y la Ley. En la actualidad, la Asamblea Nacional está integrada por 71 diputados.",
-            "El Órgano Legislativo se conforma por el Consejo Superior del Pueblo, compuesto por representantes de gremios sindicales y empresariales que emiten decretos mediante consenso ciudadano.",
-            "El Órgano Legislativo está compuesto por una Asamblea Consultiva integrada por ministros y gobernadores, elegidos cada seis años mediante proceso interno partidario."
+            "Por la Junta Nacional Electoral, con delegados provinciales designados por el Tribunal Electoral.",
+            "Por la Asamblea Nacional, con 71 diputados elegidos por voto directo según los circuitos definidos por la Constitución.",
+            "Por el Consejo del Pueblo, con gremios sindicales y empresariales que emiten decretos por consenso.",
+            "Por una Asamblea Consultiva de ministros y gobernadores elegidos internamente cada seis años."
         ],
-        "correctAnswer": "El Órgano Legislativo está constituido por una corporación denominada Asamblea Nacional, integrada por los diputados, elegidos por votación popular directa, conforme a los circuitos electorales en los que ha sido dividido el país, de conformidad con la Constitución y la Ley. En la actualidad, la Asamblea Nacional está integrada por 71 diputados."
+        "correctAnswer": "Por la Asamblea Nacional, con 71 diputados elegidos por voto directo según los circuitos definidos por la Constitución."
     },
     {
         "question": "¿Cuáles son los requisitos constitucionales para ser diputado de la Asamblea Nacional?",
         "options": [
             "Ser ciudadano centroamericano, mayor de veinticinco años, con al menos diez años de experiencia en el sector público y haber residido en Panamá los últimos cinco años.",
             "Ser ciudadano en ejercicio, mayor de treinta años, con título universitario, y haber ejercido cargos públicos en los últimos cinco años.",
-            "Ser panameño por nacimiento, o por naturalización con quince años de residencia en el país, después de haber obtenido la nacionalización; ser ciudadano en ejercicio; haber cumplido por lo menos veintiún años de edad a la fecha de la elección; no haber sido condenado por delito doloso con pena privativa de la libertad de cinco años o más, mediante sentencia ejecutoriada, proferida por un tribunal de justicia; y ser residente del circuito electoral correspondiente por lo menos un año inmediatamente anterior a la postulación.",
+            "Ser panameño por nacimiento o naturalizado con 15 años de residencia tras la nacionalización; ciudadano en ejercicio; tener al menos 21 años al momento de la elección; no haber sido condenado por delito con pena de 5 años o más; y residir en el circuito electoral al menos un año antes de postularse.",
             "Ser panameño de nacimiento o extranjero naturalizado, mayor de veintisiete años, y estar inscrito en al menos dos partidos políticos legalmente constituidos al momento de postularse."
         ],
-        "correctAnswer": "Ser panameño por nacimiento, o por naturalización con quince años de residencia en el país, después de haber obtenido la nacionalización; ser ciudadano en ejercicio; haber cumplido por lo menos veintiún años de edad a la fecha de la elección; no haber sido condenado por delito doloso con pena privativa de la libertad de cinco años o más, mediante sentencia ejecutoriada, proferida por un tribunal de justicia; y ser residente del circuito electoral correspondiente por lo menos un año inmediatamente anterior a la postulación."
+        "correctAnswer": "Ser panameño por nacimiento o naturalizado con 15 años de residencia tras la nacionalización; ciudadano en ejercicio; tener al menos 21 años al momento de la elección; no haber sido condenado por delito con pena de 5 años o más; y residir en el circuito electoral al menos un año antes de postularse."
     },
     {
         "question": "¿Cuáles son las funciones de la Asamblea Nacional?",
@@ -212,12 +212,12 @@
     {
         "question": "¿Cómo está compuesto el Órgano Judicial?",
         "options": [
-            "Por la Asamblea Nacional, el Tribunal Electoral y el Consejo de la Judicatura, según lo disponga la ley.",
-            "Por la Corte Suprema de Justicia, los tribunales y los juzgados que la Ley establezca.",
-            "Por el Ministerio Público, los juzgados civiles y los magistrados regionales de cada provincia.",
-            "Por la Defensoría del Pueblo, las fiscalías provinciales y el Consejo Superior del Ministerio de Justicia."
+            "Por la Asamblea Nacional, el Tribunal Electoral y el Consejo de la Judicatura.",
+            "Por la Corte Suprema de Justicia, los tribunales y los juzgados que establezca la Ley.",
+            "Por el Ministerio Público, juzgados civiles y magistrados regionales provinciales.",
+            "Por la Defensoría del Pueblo, fiscalías provinciales y el Consejo del Ministerio de Justicia."
         ],
-        "correctAnswer": "Por la Corte Suprema de Justicia, los tribunales y los juzgados que la Ley establezca."
+        "correctAnswer": "Por la Corte Suprema de Justicia, los tribunales y los juzgados que establezca la Ley."
     },
     {
         "question": "¿Cuál es la función del Órgano Judicial?",
@@ -233,21 +233,21 @@
         "question": "¿Cuál es la máxima corporación del Órgano Judicial y cómo está compuesta?",
         "options": [
             "La máxima corporación judicial es el Consejo General de Magistrados, compuesto por 12 jueces y representantes legales de cada provincia, designados por el Órgano Legislativo.",
-            "La Corte Suprema de Justicia es la máxima autoridad del Órgano Judicial, compuesta por 9 magistrados que deben ser panameños por nacimiento, tener al menos 35 años, estar en pleno goce de sus derechos, ser abogados titulados y haber ejercido la profesión por diez años en funciones jurídicas, académicas o judiciales.",
+            "La Corte Suprema de Justicia es la máxima autoridad del Órgano Judicial, compuesta por 9 magistrados panameños por nacimiento, tener al menos 35 años, ser abogados titulados y haber ejercido la profesión por diez años en funciones jurídicas, académicas o judiciales.",
             "El Tribunal Nacional de Justicia es el máximo órgano, conformado por 15 jueces electos popularmente, con requisitos mínimos de ciudadanía, estudios técnicos y experiencia en derecho público.",
             "El Órgano Judicial es dirigido por una Junta Suprema Legal, integrada por magistrados designados por el presidente y ratificados por consulta popular, con cargos de 10 años sin requisitos específicos."
         ],
-        "correctAnswer": "La Corte Suprema de Justicia es la máxima autoridad del Órgano Judicial, compuesta por 9 magistrados que deben ser panameños por nacimiento, tener al menos 35 años, estar en pleno goce de sus derechos, ser abogados titulados y haber ejercido la profesión por diez años en funciones jurídicas, académicas o judiciales."
+        "correctAnswer": "La Corte Suprema de Justicia es la máxima autoridad del Órgano Judicial, compuesta por 9 magistrados panameños por nacimiento, tener al menos 35 años, ser abogados titulados y haber ejercido la profesión por diez años en funciones jurídicas, académicas o judiciales."
     },
     {
         "question": "¿Qué es el Ministerio Público?",
         "options": [
             "Es un organismo encargado de la administración del presupuesto nacional y de coordinar políticas fiscales entre el Ejecutivo y la Asamblea Nacional.",
             "Es una entidad autónoma que supervisa las elecciones generales y vela por el cumplimiento de la Constitución en temas electorales.",
-            "Es un organismo que colabora con el Órgano Judicial en la administración de justicia, y está compuesto por la Procuraduría General de la Nación, que investiga delitos, y la Procuraduría de la Administración, que asesora legalmente a funcionarios y defiende intereses públicos ante la Corte Suprema.",
+            "Es un organismo que colabora con el Órgano Judicial en la administración de justicia, y está compuesto por la Procuraduría General de la Nación y la Procuraduría de la Administración.",
             "Es una comisión legislativa encargada de redactar leyes relacionadas con el sistema penal y las reformas judiciales en coordinación con universidades nacionales."
         ],
-        "correctAnswer": "Es un organismo que colabora con el Órgano Judicial en la administración de justicia, y está compuesto por la Procuraduría General de la Nación, que investiga delitos, y la Procuraduría de la Administración, que asesora legalmente a funcionarios y defiende intereses públicos ante la Corte Suprema."
+        "correctAnswer": "Es un organismo que colabora con el Órgano Judicial en la administración de justicia, y está compuesto por la Procuraduría General de la Nación y la Procuraduría de la Administración."
     },
     {
         "question": "¿Qué es el municipio?",
@@ -263,11 +263,11 @@
         "question": "¿Qué es el Consejo Municipal y cómo se integra?",
         "options": [
             "Es una organización no gubernamental formada por líderes religiosos y académicos que asesoran al alcalde en temas educativos.",
-            "Es el organismo que reglamenta el régimen político administrativo del distrito y está integrado por los representantes de corregimientos elegidos dentro del distrito. En distritos con menos de cinco corregimientos, se eligen los concejales necesarios para llegar al mínimo de cinco miembros.",
+            "Es el organismo que reglamenta el régimen político administrativo del distrito y está integrado por los representantes de corregimientos elegidos dentro del distrito.",
             "Es una comisión especial del Ministerio de la Presidencia que supervisa el desarrollo urbano de las ciudades con más de 100 mil habitantes.",
             "Es el ente responsable de fiscalizar los recursos municipales y está compuesto por tres jueces comunitarios nombrados por el Tribunal Electoral."
         ],
-        "correctAnswer": "Es el organismo que reglamenta el régimen político administrativo del distrito y está integrado por los representantes de corregimientos elegidos dentro del distrito. En distritos con menos de cinco corregimientos, se eligen los concejales necesarios para llegar al mínimo de cinco miembros."
+        "correctAnswer": "Es el organismo que reglamenta el régimen político administrativo del distrito y está integrado por los representantes de corregimientos elegidos dentro del distrito."
     },
     {
         "question": "¿Quién es el alcalde y cómo es elegido?",
@@ -300,24 +300,24 @@
         "correctAnswer": "Ministerio de Desarrollo Agropecuario, Instituto de Mercadeo Agropecuario, Banco de Desarrollo Agropecuario, Instituto de Investigaciones Agropecuarias e Instituto de Seguro Agropecuario."
     },
     {
-        "question": "¿Qué instituciones ha creado el Estado, para atender la obligación de la seguridad social a los habitantes?",
+        "question": "¿Qué instituciones ha creado el Estado para atender la seguridad social?",
         "options": [
-            "Ministerio de Trabajo, Fondo Nacional de Emergencias, Secretaría de Reasentamiento, y Servicio Nacional de Movilidad Ciudadana.",
-            "Ministerio de Educación, Instituto Nacional de Transporte, Policía Nacional de Tránsito, y Servicio de Limpieza Urbana.",
-            "Ministerio de Salud, la Caja de Seguro Social, la Cruz Roja Nacional, el Asilo de Ancianos, el Cuerpo de Bomberos, la Fuerza Pública, entre otras.",
-            "Ministerio de Cultura, Tribunal Electoral, Banco Hipotecario Nacional y la Universidad de Panamá."
+            "Ministerio de Trabajo, Fondo de Emergencias, Reasentamiento y Movilidad Ciudadana.",
+            "Educación, Transporte, Policía de Tránsito y Limpieza Urbana.",
+            "Salud, Caja de Seguro Social, Cruz Roja, Asilo, Bomberos y Fuerza Pública.",
+            "Cultura, Tribunal Electoral, Banco Hipotecario y Universidad de Panamá."
         ],
-        "correctAnswer": "Ministerio de Salud, la Caja de Seguro Social, la Cruz Roja Nacional, el Asilo de Ancianos, el Cuerpo de Bomberos, la Fuerza Pública, entre otras."
+        "correctAnswer": "Salud, Caja de Seguro Social, Cruz Roja, Asilo, Bomberos y Fuerza Pública."
     },
     {
         "question": "¿Cuándo se formó el actual Tribunal Electoral, y por quiénes está integrado?",
         "options": [
-            "Fue creado en 1956 y está compuesto por tres magistrados nombrados respectivamente por el Órgano Ejecutivo, el Legislativo y la Corte Suprema de Justicia, con un periodo de diez años.",
-            "Fue creado en 1972 y está compuesto por cinco comisionados designados por el Consejo Nacional Electoral cada seis años.",
-            "Se constituyó formalmente en 1990, compuesto por representantes de cada provincia y presidido por el ministro de Gobierno.",
-            "Fue establecido en 1968 como una dependencia del Ministerio de Justicia, conformado por tres jueces superiores designados por la Asamblea Nacional."
+            "Creado en 1956; tres magistrados nombrados por el Ejecutivo, Legislativo y Corte Suprema por 10 años.",
+            "Creado en 1972; cinco comisionados designados por el Consejo Nacional Electoral cada seis años.",
+            "Constituido en 1990; representantes provinciales presididos por el ministro de Gobierno.",
+            "Establecido en 1968 como parte del Ministerio de Justicia; tres jueces designados por la Asamblea."
         ],
-        "correctAnswer": "Fue creado en 1956 y está compuesto por tres magistrados nombrados respectivamente por el Órgano Ejecutivo, el Legislativo y la Corte Suprema de Justicia, con un periodo de diez años."
+        "correctAnswer": "Creado en 1956; tres magistrados nombrados por el Ejecutivo, Legislativo y Corte Suprema por 10 años."
     },
     {
         "question": "¿Qué funciones cumple el Tribunal Electoral?",
@@ -382,22 +382,22 @@
     {
         "question": "¿Cuáles son las provincias con sus cabeceras, y las comarcas indígenas de la República de Panamá?",
         "options": [
-            "Panamá tiene 10 provincias con sus cabeceras: Bocas del Toro (Bocas del Toro), Coclé (Penonomé), Colón (Colón), Chiriquí (David), Darién (La Palma), Herrera (Chitré), Los Santos (Las Tablas), Panamá (Panamá), Panamá Oeste (La Chorrera), Veraguas (Santiago). Tiene también 5 comarcas indígenas: Kuna Yala (El Porvenir), Emberá Wounaan (Unión Chocó), Ngäbe-Buglé (Buabidi), Kuna de Madugandí (Akua Yala) y Kuna de Wargandí (corregimiento de Pinogana, Darién).",
+            "Panamá tiene 10 provincias con sus cabeceras: Bocas del Toro (Bocas del Toro), Coclé (Penonomé), Colón (Colón), Chiriquí (David), Darién (La Palma), Herrera (Chitré), Los Santos (Las Tablas), Panamá (Panamá), Panamá Oeste (La Chorrera) y Veraguas (Santiago). También cuenta con 5 comarcas indígenas: Guna Yala (El Porvenir), Emberá Wounaan (Unión Chocó), Ngäbe-Buglé (Buabidi), Guna de Madugandí (Akua Yala) y Guna de Wargandí (Pinogana, Darién).",
             "Panamá tiene 9 provincias con capitales como Chitré, Boquete, Penonomé y Aguadulce. Sus comarcas son Ngäbe Oriental, Guna del Sur y Emberá Alto, con cabeceras rotativas.",
             "Panamá cuenta con 11 provincias, incluyendo la provincia indígena de Guna Yala. No existen cabeceras oficiales; en su lugar, se usan distritos principales como referencia.",
             "Existen solo 8 provincias, cada una con cabeceras temporales según desarrollo económico. Las comarcas se consideran zonas especiales sin capitales definidas."
         ],
-        "correctAnswer": "Panamá tiene 10 provincias con sus cabeceras: Bocas del Toro (Bocas del Toro), Coclé (Penonomé), Colón (Colón), Chiriquí (David), Darién (La Palma), Herrera (Chitré), Los Santos (Las Tablas), Panamá (Panamá), Panamá Oeste (La Chorrera), Veraguas (Santiago). Tiene también 5 comarcas indígenas: Kuna Yala (El Porvenir), Emberá Wounaan (Unión Chocó), Ngäbe-Buglé (Buabidi), Kuna de Madugandí (Akua Yala) y Kuna de Wargandí (corregimiento de Pinogana, Darién)."
+        "correctAnswer": "Panamá tiene 10 provincias con sus cabeceras: Bocas del Toro (Bocas del Toro), Coclé (Penonomé), Colón (Colón), Chiriquí (David), Darién (La Palma), Herrera (Chitré), Los Santos (Las Tablas), Panamá (Panamá), Panamá Oeste (La Chorrera) y Veraguas (Santiago). También cuenta con 5 comarcas indígenas: Guna Yala (El Porvenir), Emberá Wounaan (Unión Chocó), Ngäbe-Buglé (Buabidi), Guna de Madugandí (Akua Yala) y Guna de Wargandí (Pinogana, Darién)."
     },
     {
         "question": "¿Cuál es la forma del Istmo de Panamá y cuánto mide su superficie?",
         "options": [
-            "Tiene forma de media luna invertida y cuenta con una superficie total de 71,000 Km2, sin acceso al mar Caribe.",
-            "Tiene forma rectangular, su superficie es de 65,000 Km2, y se caracteriza por tener más costa en el Atlántico que en el Pacífico.",
-            "Tiene forma de una S acostada y su superficie es de 75,517 Km2. Panamá tiene 2,988.3 km de costas: 1,287.7 km en el Caribe y 1,700.6 km en el Pacífico.",
-            "Tiene forma triangular, con una superficie aproximada de 80,000 Km2 y una franja costera de 3,500 km distribuidos equitativamente entre ambos océanos."
+            "Media luna invertida, 71,000 km², sin acceso al Caribe.",
+            "Rectangular, 65,000 km², más costa en el Atlántico.",
+            "S acostada, 75,517 km², 2,988.3 km de costas: 1,287.7 km Caribe y 1,700.6 km Pacífico.",
+            "Triangular, 80,000 km², 3,500 km de costas repartidas entre ambos océanos."
         ],
-        "correctAnswer": "Tiene forma de una S acostada y su superficie es de 75,517 Km2. Panamá tiene 2,988.3 km de costas: 1,287.7 km en el Caribe y 1,700.6 km en el Pacífico."
+        "correctAnswer": "S acostada, 75,517 km², 2,988.3 km de costas: 1,287.7 km Caribe y 1,700.6 km Pacífico."
     },
     {
         "question": "¿Cuál es la altura máxima del istmo de Panamá y dónde está ubicada?",
@@ -412,12 +412,12 @@
     {
         "question": "¿Cuáles son los principales ríos ubicados en la vertiente del Caribe, y cuáles son las características de los mismos?",
         "options": [
-            "En la vertiente del Caribe se encuentran ríos como el La Miel, Coclé del Norte y Chagres. Son ríos largos, navegables y ampliamente usados para transporte comercial.",
-            "En esta vertiente se ubican ríos como el Sixaola, Changuinola, Coclé del Norte, Calovébora y La Miel. Son ríos cortos, torrentosos, reciben intensas lluvias, son poco navegables y adecuados para generar energía hidráulica.",
-            "La vertiente del Caribe está formada por ríos artificiales como el Canal de Panamá, usados exclusivamente para el tránsito marítimo y control de inundaciones.",
-            "Los principales ríos caribeños se encuentran únicamente en la provincia de Veraguas, donde se desarrollan proyectos de navegación comercial y transporte agrícola."
+            "La Miel, Coclé del Norte y Chagres; largos, navegables y usados para transporte.",
+            "Sixaola, Changuinola, Coclé del Norte, Calovébora y La Miel; cortos, torrentosos, con lluvias intensas y aptos para energía hidráulica.",
+            "Canal de Panamá y otros artificiales, usados solo para tránsito marítimo y control de inundaciones.",
+            "Ríos solo en Veraguas, con enfoque en navegación comercial y agrícola."
         ],
-        "correctAnswer": "En esta vertiente se ubican ríos como el Sixaola, Changuinola, Coclé del Norte, Calovébora y La Miel. Son ríos cortos, torrentosos, reciben intensas lluvias, son poco navegables y adecuados para generar energía hidráulica."
+        "correctAnswer": "Sixaola, Changuinola, Coclé del Norte, Calovébora y La Miel; cortos, torrentosos, con lluvias intensas y aptos para energía hidráulica."
     },
     {
         "question": "¿Cuáles son los principales ríos de la vertiente del Pacífico, y cuáles son las características de los mismos?",
@@ -440,14 +440,14 @@
         "correctAnswer": "Entre los puertos comerciales más importantes se encuentran Bahía las Minas, Colón Container Terminal, Colón 2000, Balboa, PSA, Armuelles y otros distribuidos en varias provincias, incluyendo Chiriquí, Panamá Oeste y Veraguas."
     },
     {
-        "question": "¿Cuáles son los principales accidentes geográficos de la República de Panamá?",
+        "question": "¿Cuáles son los principales accidentes geográficos de Panamá?",
         "options": [
-            "Panamá posee accidentes geográficos como el golfo de Panamá, la bahía de Almirante, el lago Gatún, la península de Azuero, el archipiélago de Kuna Yala y el volcán Barú, entre otros.",
-            "Los accidentes geográficos de Panamá incluyen el golfo de México, la bahía de Colón, el lago Nicaragua, la península de Yucatán y el monte Ancón como punto más alto.",
-            "Los principales accidentes naturales del país son el canal de Panamá, el desierto de Darién, la península de Coclé, la isla de Cozumel y el cerro Chucunaque.",
-            "Entre los accidentes geográficos de Panamá están el río Amazonas, la cordillera del Himalaya, la península del Sur y la isla Galápagos, ubicados en zonas protegidas."
+            "Golfo de Panamá, bahía de Almirante, lago Gatún, Azuero, Kuna Yala y volcán Barú.",
+            "Golfo de México, bahía de Colón, lago Nicaragua, Yucatán y monte Ancón.",
+            "Canal de Panamá, desierto de Darién, península de Coclé, isla Cozumel y cerro Chucunaque.",
+            "Río Amazonas, cordillera del Himalaya, península del Sur e isla Galápagos."
         ],
-        "correctAnswer": "Panamá posee accidentes geográficos como el golfo de Panamá, la bahía de Almirante, el lago Gatún, la península de Azuero, el archipiélago de Kuna Yala y el volcán Barú, entre otros."
+        "correctAnswer": "Golfo de Panamá, bahía de Almirante, lago Gatún, Azuero, Kuna Yala y volcán Barú."
     },
     {
         "question": "¿Cuáles son los cultivos agrícolas más extendidos en Panamá?",
@@ -512,12 +512,12 @@
     {
         "question": "¿Cuáles son las provincias menos habitadas?",
         "options": [
-            "Las menos habitadas son Los Santos y Darién, según el censo de 2010.",
-            "Las provincias menos habitadas son Colón y Chiriquí, por su alta urbanización.",
-            "Las menos pobladas son Coclé y Veraguas, con menos de 100,000 habitantes cada una.",
-            "No existen provincias con baja población, todas tienen más de medio millón de habitantes."
+            "Los Santos y Darién, según el censo de 2010.",
+            "Colón y Chiriquí, por su alta urbanización.",
+            "Coclé y Veraguas, con menos de 100,000 habitantes.",
+            "Todas las provincias tienen más de medio millón de habitantes."
         ],
-        "correctAnswer": "Las menos habitadas son Los Santos y Darién, según el censo de 2010."
+        "correctAnswer": "Los Santos y Darién, según el censo de 2010."
     },
     {
         "question": "¿Qué aspectos destacan del Puente de las Américas?",
@@ -592,12 +592,12 @@
     {
         "question": "¿Cuánto tiempo estuvo Panamá bajo dominio español, y cuáles fueron los motivos de su independencia?",
         "options": [
-            "Panamá estuvo bajo dominio español por 320 años, desde 1501 hasta el 28 de noviembre de 1821. La independencia se logró debido a factores como la decadencia del poder español, la influencia de movimientos independentistas en América Latina, y el deseo de mayor autonomía económica y política.",
+            "Panamá fue colonia española por 320 años. Se independizó por la decadencia del poder español, el influjo de otros movimientos en América y el deseo de autonomía.",
             "Panamá fue colonia inglesa por 280 años y se independizó tras un tratado con Gran Bretaña, influenciado por la expansión de Estados Unidos.",
             "El istmo fue controlado por Francia durante 200 años hasta que fue vendido a los panameños por problemas económicos derivados de guerras en Europa.",
             "Desde su descubrimiento, Panamá estuvo libre, pero se unió voluntariamente al Imperio español por motivos comerciales hasta 1801, cuando decidió independizarse."
         ],
-        "correctAnswer": "Panamá estuvo bajo dominio español por 320 años, desde 1501 hasta el 28 de noviembre de 1821. La independencia se logró debido a factores como la decadencia del poder español, la influencia de movimientos independentistas en América Latina, y el deseo de mayor autonomía económica y política."
+        "correctAnswer": "Panamá fue colonia española por 320 años. Se independizó por la decadencia del poder español, el influjo de otros movimientos en América y el deseo de autonomía."
     },
     {
         "question": "¿Cuándo se independizó Panamá de España?",
@@ -612,12 +612,12 @@
     {
         "question": "¿Cuáles fueron las razones que indujeron a los istmeños a unirse a la Gran Colombia, una vez consumada nuestra independencia de España?",
         "options": [
-            "Las razones fueron principalmente de seguridad frente a posibles ataques de España desde Puerto Rico o Cuba, un sentimiento de solidaridad con las nuevas repúblicas americanas y admiración por Simón Bolívar, así como la esperanza de recibir apoyo económico.",
+            "Las razones fueron la búsqueda de seguridad ante posibles ataques españoles, la solidaridad con las repúblicas americanas, la admiración por Bolívar y la esperanza de apoyo económico.",
             "La unión fue forzada por el ejército colombiano luego de la independencia de Panamá para asegurar su control sobre el canal.",
             "Fue una decisión impuesta por los españoles antes de su retirada, como parte de un acuerdo con Simón Bolívar.",
             "Se trató de una unión comercial con fines únicamente económicos y sin participación de la población istmeña."
         ],
-        "correctAnswer": "Las razones fueron principalmente de seguridad frente a posibles ataques de España desde Puerto Rico o Cuba, un sentimiento de solidaridad con las nuevas repúblicas americanas y admiración por Simón Bolívar, así como la esperanza de recibir apoyo económico."
+        "correctAnswer": "Las razones fueron la búsqueda de seguridad ante posibles ataques españoles, la solidaridad con las repúblicas americanas, la admiración por Bolívar y la esperanza de apoyo económico."
     },
     {
         "question": "¿Qué era la Doctrina Bolivariana?",
@@ -640,24 +640,24 @@
         "correctAnswer": "Fue un periodo marcado por el fracaso económico y administrativo, y durante esta unión se produjeron tres intentos de separación en 1830, 1831 y 1840, liderados por José Domingo Espinar, Juan Eligio Alzuru y Tomás Herrera, respectivamente."
     },
     {
-        "question": "¿Qué causas o factores contribuyeron a nuestra separación de la Gran Colombia?",
+        "question": "¿Qué causas contribuyeron a la separación de Panamá de la Gran Colombia?",
         "options": [
-            "El excesivo centralismo de Bogotá, el abandono del Istmo, el mal estado nacional, las guerras civiles, el fracaso del Canal Francés y el rechazo del Tratado Herrán-Hay.",
-            "La independencia fue impulsada por la intervención militar de Perú y el apoyo económico de Estados Unidos.",
-            "La unión con Colombia se rompió debido a disputas territoriales con Costa Rica y un acuerdo fallido con Venezuela.",
-            "La separación se debió únicamente a razones religiosas y conflictos entre iglesias regionales del istmo."
+            "Centralismo de Bogotá, abandono del Istmo, crisis interna, guerras civiles, Canal Francés fallido y rechazo del Tratado Herrán-Hay.",
+            "Intervención militar de Perú y apoyo económico de Estados Unidos.",
+            "Disputas con Costa Rica y acuerdo fallido con Venezuela.",
+            "Conflictos religiosos entre iglesias del istmo."
         ],
-        "correctAnswer": "El excesivo centralismo de Bogotá, el abandono del Istmo, el mal estado nacional, las guerras civiles, el fracaso del Canal Francés y el rechazo del Tratado Herrán-Hay."
+        "correctAnswer": "Centralismo de Bogotá, abandono del Istmo, crisis interna, guerras civiles, Canal Francés fallido y rechazo del Tratado Herrán-Hay."
     },
     {
         "question": "¿Cuánto tiempo estuvo Panamá unida a la Gran Colombia, y cuándo se dio la separación definitiva?",
         "options": [
-            "Panamá estuvo unida a la Gran Colombia por 82 años y se separó el 3 de noviembre de 1903.",
-            "Panamá permaneció unida por 50 años hasta su separación el 5 de noviembre de 1905.",
-            "Panamá formó parte de la Gran Colombia por 75 años, separándose el 28 de octubre de 1902.",
-            "Panamá fue parte de la unión durante 60 años, logrando su independencia definitiva el 1 de enero de 1901."
+            "82 años; separación el 3 de noviembre de 1903.",
+            "50 años; separación el 5 de noviembre de 1905.",
+            "75 años; separación el 28 de octubre de 1902.",
+            "60 años; separación el 1 de enero de 1901."
         ],
-        "correctAnswer": "Panamá estuvo unida a la Gran Colombia por 82 años y se separó el 3 de noviembre de 1903."
+        "correctAnswer": "82 años; separación el 3 de noviembre de 1903."
     },
     {
         "question": "¿Quiénes conformaron la Junta Provisional de Gobierno de 1903?",
@@ -672,12 +672,12 @@
     {
         "question": "¿Cuáles son aspectos sobresalientes del Canal de Panamá?",
         "options": [
-            "Fue iniciado por Francia en 1880, continuado por EE. UU. en 1904, tiene 80 km de largo, tres pares de esclusas y pasó a control panameño en 1999 tras el tratado Torrijos-Carter.",
-            "Fue construido por Panamá desde 1903, con apoyo de Colombia, y entregado a Estados Unidos en 1950 mediante el tratado Alfaro-Kellogg.",
-            "Su construcción fue liderada por Venezuela y terminó en 1936, cuando se firmó el tratado Arias-Roosevelt que concedió el canal a Nicaragua.",
-            "Fue una obra iniciada por EE. UU. en 1910 y entregada a Panamá en 2001 bajo el tratado Remón-Eisenhower, con tres esclusas ubicadas en la provincia de Colón."
+            "Iniciado por Francia (1880), EE. UU. continuó en 1904, mide 80 km, tiene 3 esclusas y fue entregado a Panamá en 1999 por el tratado Torrijos-Carter.",
+            "Construido por Panamá desde 1903 con apoyo de Colombia y entregado a EE. UU. en 1950 por el tratado Alfaro-Kellogg.",
+            "Liderado por Venezuela, finalizó en 1936 y fue concedido a Nicaragua mediante el tratado Arias-Roosevelt.",
+            "Obra de EE. UU. desde 1910, entregada en 2001 bajo el tratado Remón-Eisenhower; tres esclusas en Colón."
         ],
-        "correctAnswer": "Fue iniciado por Francia en 1880, continuado por EE. UU. en 1904, tiene 80 km de largo, tres pares de esclusas y pasó a control panameño en 1999 tras el tratado Torrijos-Carter."
+        "correctAnswer": "Iniciado por Francia (1880), EE. UU. continuó en 1904, mide 80 km, tiene 3 esclusas y fue entregado a Panamá en 1999 por el tratado Torrijos-Carter."
     },
     {
         "question": "¿Cuál de las siguientes opciones describe correctamente a varios personajes destacados en la historia republicana de Panamá?",
