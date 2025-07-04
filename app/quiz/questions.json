@@ -230,24 +230,24 @@
         "correctAnswer": "Impartir justicia de forma gratuita, expedita e ininterrumpida como parte de su responsabilidad en la administración de justicia."
     },
     {
-        "question": "¿Cuál es la máxima corporación del Órgano Judicial y cómo está compuesta?",
+        "question": "¿Cuál es la máxima autoridad del Órgano Judicial y cómo está compuesta?",
         "options": [
-            "La máxima corporación judicial es el Consejo General de Magistrados, compuesto por 12 jueces y representantes legales de cada provincia, designados por el Órgano Legislativo.",
-            "La Corte Suprema de Justicia es la máxima autoridad del Órgano Judicial, con 9 magistrados panameños por nacimiento, mayores de 35 años, abogados titulados y con al menos 10 años de experiencia jurídica.",
-            "El Tribunal Nacional de Justicia es el máximo órgano, conformado por 15 jueces electos popularmente, con requisitos mínimos de ciudadanía, estudios técnicos y experiencia en derecho público.",
-            "El Órgano Judicial es dirigido por una Junta Suprema Legal, integrada por magistrados designados por el presidente y ratificados por consulta popular, con cargos de 10 años sin requisitos específicos."
+            "El Consejo General de Magistrados, con 12 jueces y representantes legales de cada provincia.",
+            "La Corte Suprema de Justicia, con 9 magistrados panameños por nacimiento, mayores de 35 años y con 10+ años de experiencia jurídica.",
+            "El Tribunal Nacional de Justicia, compuesto por 15 jueces electos con estudios técnicos en derecho público.",
+            "La Junta Suprema Legal, con magistrados designados por el presidente y ratificados por consulta popular."
         ],
-        "correctAnswer": "La Corte Suprema de Justicia es la máxima autoridad del Órgano Judicial, con 9 magistrados panameños por nacimiento, mayores de 35 años, abogados titulados y con al menos 10 años de experiencia jurídica."
+        "correctAnswer": "La Corte Suprema de Justicia, con 9 magistrados panameños por nacimiento, mayores de 35 años y con 10+ años de experiencia jurídica."
     },
     {
-        "question": "¿Qué es el Ministerio Público?",
+        "question": "¿Qué función cumple el Ministerio Público?",
         "options": [
-            "Es un organismo encargado de la administración del presupuesto nacional y de coordinar políticas fiscales entre el Ejecutivo y la Asamblea Nacional.",
-            "Es una entidad autónoma que supervisa las elecciones generales y vela por el cumplimiento de la Constitución en temas electorales.",
-            "Es un organismo que colabora con el Órgano Judicial en la administración de justicia, y está compuesto por la Procuraduría General de la Nación y la Procuraduría de la Administración.",
-            "Es una comisión legislativa encargada de redactar leyes relacionadas con el sistema penal y las reformas judiciales en coordinación con universidades nacionales."
+            "Administra el presupuesto y coordina políticas fiscales.",
+            "Supervisa elecciones y vela por la Constitución en temas electorales.",
+            "Colabora con el Órgano Judicial en la justicia y lo integran la Procuraduría General de la Nación y la Procuraduría de la Administración.",
+            "Redacta leyes penales junto con universidades nacionales."
         ],
-        "correctAnswer": "Es un organismo que colabora con el Órgano Judicial en la administración de justicia, y está compuesto por la Procuraduría General de la Nación y la Procuraduría de la Administración."
+        "correctAnswer": "Colabora con el Órgano Judicial en la justicia y lo integran la Procuraduría General de la Nación y la Procuraduría de la Administración."
     },
     {
         "question": "¿Qué es el municipio?",
