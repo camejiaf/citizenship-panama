@@ -115,8 +115,8 @@ export default function RecursosPage() {
                 <div className="mt-6 sm:mt-12 text-center max-w-4xl mx-auto px-2 sm:px-0">
                     <div className="bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-2xl border border-white/20">
                         <blockquote className="text-sm sm:text-lg md:text-xl italic text-gray-800 leading-relaxed">
-                            "Cuando parece que todas las esperanzas se nos agotan y el camino se torna más oscuro y amenazador,
-                            es el momento de hacer brillar la luz interior que todos poseemos."
+                            &quot;Cuando parece que todas las esperanzas se nos agotan y el camino se torna más oscuro y amenazador,
+                            es el momento de hacer brillar la luz interior que todos poseemos.&quot;
                         </blockquote>
                         <p className="mt-2 sm:mt-3 text-xs sm:text-sm text-gray-600">
                             — Rose Marie Tapia, <span className="italic">Niña Bella</span>

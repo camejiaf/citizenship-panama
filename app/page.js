@@ -70,10 +70,10 @@ export default function Home() {
 
               {/* Panama cultural quote */}
               <div className="pt-4 border-t border-gray-200">
-                <p className="text-gray-500 text-xs italic">
-                  "Panamá es un puente del mundo, un corazón del universo"<br />
+                <blockquote className="text-gray-500 text-xs italic">
+                  &quot;Panamá es un puente del mundo, un corazón del universo&quot;<br />
                   - Vasco Núñez de Balboa
-                </p>
+                </blockquote>
                 <p className="text-gray-500 text-xs mt-2">
                   Hecho por un ciudadano naturalizado.<br />
                   Pronto lo serás tú también. ¡Muchísima suerte! ❤️
