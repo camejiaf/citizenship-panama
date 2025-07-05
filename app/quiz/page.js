@@ -162,7 +162,7 @@ export default function QuizPage() {
                     </div>
                 ) : (
                     <div className="w-full max-w-4xl">
-                        <div className="bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-2xl border border-white/20">
+                        <div className="bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-2xl border border-white/20 sm:flex sm:flex-col sm:h-full">
                             {showResult ? (
                                 <div className="text-center space-y-6 sm:space-y-8">
                                     <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl sm:rounded-3xl flex items-center justify-center mx-auto shadow-lg">
@@ -208,7 +208,7 @@ export default function QuizPage() {
                                     </div>
                                 </div>
                             ) : (
-                                <div className="space-y-6 sm:space-y-8">
+                                <div className="space-y-6 sm:space-y-8 sm:flex-1 sm:overflow-auto">
                                     {/* Header */}
                                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-3 sm:space-y-0">
                                         <div className="flex items-center space-x-3 sm:space-x-4">
@@ -260,62 +260,25 @@ export default function QuizPage() {
                                             ))}
                                         </div>
                                     </div>
+                                </div>
+                            )}
 
-                                    {/* Navigation */}
-                                    {selected && (
-                                        <div className={`${(() => {
-                                            const questionLength = currentQuestion.question.length;
-                                            const maxOptionLength = Math.max(...currentQuestion.options.map(opt => opt.length));
-                                            const longOptionsCount = currentQuestion.options.filter(opt => opt.length > 80).length;
-                                            const totalContentLength = questionLength + maxOptionLength;
-                                            return totalContentLength > 300 || longOptionsCount >= 2;
-                                        })() ? 'fixed bottom-4 left-0 right-0 z-50' : 'text-center pt-4'}`}>
-                                            <div className={`${(() => {
-                                                const questionLength = currentQuestion.question.length;
-                                                const maxOptionLength = Math.max(...currentQuestion.options.map(opt => opt.length));
-                                                const longOptionsCount = currentQuestion.options.filter(opt => opt.length > 80).length;
-                                                const totalContentLength = questionLength + maxOptionLength;
-                                                return totalContentLength > 300 || longOptionsCount >= 2;
-                                            })() ? 'mx-4' : ''}`}>
-                                                <button
-                                                    onClick={nextQuestion}
-                                                    className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white py-3 px-6 rounded-xl sm:rounded-2xl font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-sm sm:text-base mb-3"
-                                                >
-                                                    {currentIndex + 1 === questions.length ? 'Ver resultados' : 'Siguiente'}
-                                                </button>
+                            {/* Navigation - always at bottom on sm: and up */}
+                            {selected && (
+                                <div className="text-center pt-4 sm:pt-8 sm:mt-auto">
+                                    <button
+                                        onClick={nextQuestion}
+                                        className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white py-3 px-6 rounded-xl sm:rounded-2xl font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-sm sm:text-base mb-3"
+                                    >
+                                        {currentIndex + 1 === questions.length ? 'Ver resultados' : 'Siguiente'}
+                                    </button>
 
-                                                <button
-                                                    onClick={() => window.location.href = '/'}
-                                                    className="text-gray-500 hover:text-gray-700 text-xs sm:text-sm transition-colors"
-                                                >
-                                                    ← Volver al inicio
-                                                </button>
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {/* Back to home (when no answer selected) */}
-                                    {!selected && (
-                                        <div className="text-center pt-4 pb-20 sm:pb-4">
-                                            <button
-                                                onClick={() => window.location.href = '/'}
-                                                className="text-gray-500 hover:text-gray-700 text-xs sm:text-sm transition-colors"
-                                            >
-                                                ← Volver al inicio
-                                            </button>
-                                        </div>
-                                    )}
-
-                                    {/* Extra padding for long questions to prevent content overlap */}
-                                    {selected && (() => {
-                                        const questionLength = currentQuestion.question.length;
-                                        const maxOptionLength = Math.max(...currentQuestion.options.map(opt => opt.length));
-                                        const longOptionsCount = currentQuestion.options.filter(opt => opt.length > 80).length;
-                                        const totalContentLength = questionLength + maxOptionLength;
-                                        return totalContentLength > 300 || longOptionsCount >= 2;
-                                    })() && (
-                                            <div className="pb-24"></div>
-                                        )}
+                                    <button
+                                        onClick={() => window.location.href = '/'}
+                                        className="text-gray-500 hover:text-gray-700 text-xs sm:text-sm transition-colors"
+                                    >
+                                        <span role="img" aria-label="home" className="mr-1">🏠</span>Volver al inicio
+                                    </button>
                                 </div>
                             )}
                         </div>
