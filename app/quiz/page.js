@@ -92,7 +92,7 @@ export default function QuizPage() {
     };
 
     return (
-        <main className="relative min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
+        <main className="relative w-full h-svh bg-gradient-to-br from-blue-50 via-white to-red-50">
             {/* Mola SVG pattern overlay */}
             <MolaPattern className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-5" style={{ minWidth: '100vw', minHeight: '100vh' }} />
 
@@ -117,7 +117,7 @@ export default function QuizPage() {
                 <div className="absolute bottom-1/4 left-1/4 w-20 h-20 bg-yellow-300/20 rounded-full blur-2xl"></div>
             </div>
 
-            <div className="relative z-10 min-h-screen flex items-center justify-center p-4 sm:p-6">
+            <div className="relative z-10 w-full h-full flex items-center justify-center p-4 sm:p-6 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
                 {!hasStarted ? (
                     <div className="w-full max-w-md">
                         <div className="bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/20">

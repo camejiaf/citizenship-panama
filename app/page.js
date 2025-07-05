@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <main className="relative min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
+    <main className="relative w-full h-svh bg-gradient-to-br from-blue-50 via-white to-red-50">
       {/* Mola SVG pattern overlay */}
       <MolaPattern className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-5" style={{ minWidth: '100vw', minHeight: '100vh' }} />
 
@@ -31,20 +31,23 @@ export default function Home() {
         </svg>
       </div>
 
-      <div className="relative z-10 min-h-screen flex items-center justify-center p-4 sm:p-6">
+      <div className="relative z-10 w-full h-full flex items-center justify-center p-4 sm:p-6">
         <div className="w-full max-w-md">
           <div className="bg-white/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/30">
-            <div className="text-center space-y-4 sm:space-y-6">
+            <div className="text-center">
               {/* Panama flag-inspired icon */}
-              <div className="relative">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto shadow-lg">
-                  <span className="text-white text-2xl sm:text-3xl">🇵🇦</span>
-                </div>
-              </div>
+              <img src="/flag_of_panama.svg" alt="Panama Flag" className="w-40 sm:w-56 mx-auto shadow-lg mb-4 sm:mb-6" style={{ display: 'block', lineHeight: 0 }} />
 
-              <div>
+              <div className="space-y-4 sm:space-y-6">
                 <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">Examen de Naturalización Panameña</h1>
                 <p className="text-gray-600 text-xs sm:text-sm">Prepárate con preguntas reales, explicaciones claras, y una experiencia 100% gratuita.</p>
+                {/* Mobile experience note */}
+                <div className="sm:hidden mt-2 p-2 bg-blue-50 border border-blue-200 rounded-lg">
+                  <p className="text-blue-700 text-xs flex items-center justify-center">
+                    <span className="mr-1">💡</span>
+                    Para la mejor experiencia posible, recomiendo usar tu computadora o tablet
+                  </p>
+                </div>
               </div>
 
               <div className="space-y-3">
@@ -70,10 +73,6 @@ export default function Home() {
 
               {/* Panama cultural quote */}
               <div className="pt-4 border-t border-gray-200">
-                <blockquote className="text-gray-500 text-xs italic">
-                  &quot;Panamá es un puente del mundo, un corazón del universo&quot;<br />
-                  - Vasco Núñez de Balboa
-                </blockquote>
                 <p className="text-gray-500 text-xs mt-2">
                   Hecho por un ciudadano naturalizado.<br />
                   Pronto lo serás tú también. ¡Muchísima suerte! ❤️

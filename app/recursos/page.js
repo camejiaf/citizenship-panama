@@ -12,7 +12,7 @@ import MolaPattern from '../components/MolaPattern';
 
 export default function RecursosPage() {
     return (
-        <main className="relative min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
+        <main className="relative w-full h-svh bg-gradient-to-br from-blue-50 via-white to-red-50 overflow-y-auto">
             {/* Mola SVG pattern overlay */}
             <MolaPattern className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-5" style={{ minWidth: '100vw', minHeight: '100vh' }} />
 
@@ -37,7 +37,7 @@ export default function RecursosPage() {
                 </svg>
             </div>
 
-            <div className="relative z-10 min-h-screen p-2 sm:p-6">
+            <div className="relative z-10 w-full min-h-full p-2 sm:p-6">
                 {/* Page Title */}
                 <div className="flex justify-center mb-6 sm:mb-12 mt-2 sm:mt-4">
                     <div className="bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-3 sm:p-6 shadow-2xl border border-white/20 text-center w-full max-w-full">

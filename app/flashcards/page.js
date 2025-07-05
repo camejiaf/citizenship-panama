@@ -23,14 +23,14 @@ export default function FlashcardPage() {
 
     if (flashcards.length === 0) {
         return (
-            <main className="min-h-screen flex items-center justify-center text-center p-4 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+            <main className="w-full h-svh flex items-center justify-center text-center p-4 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
                 <p className="text-gray-300">No hay tarjetas de estudio disponibles.</p>
             </main>
         );
     }
 
     return (
-        <main className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-red-50">
+        <main className="relative w-full h-svh flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-red-50">
             {/* Mola SVG pattern overlay */}
             <MolaPattern className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-5" style={{ minWidth: '100vw', minHeight: '100vh' }} />
 
