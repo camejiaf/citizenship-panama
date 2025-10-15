@@ -93,26 +93,19 @@ export default function QuizPage() {
 
     return (
         <main className="relative w-full h-svh bg-gradient-to-br from-blue-50 via-white to-red-50">
-            {/* Mola SVG pattern overlay */}
             <MolaPattern className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-5" style={{ minWidth: '100vw', minHeight: '100vh' }} />
 
-            {/* Panama-themed geometric accents */}
             <div className="absolute inset-0 overflow-hidden">
-                {/* Panama flag colors - blue section */}
                 <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-blue-200/20 rounded-tr-full"></div>
-                {/* Panama flag colors - red section */}
                 <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-red-200/20 rounded-bl-full"></div>
-                {/* Panama stars (SVG for color control) */}
                 <svg className="absolute bottom-[70%] left-[10%] w-8 h-8" viewBox="0 0 24 24" fill="rgba(59,130,246,0.6)">
                     <polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9" />
                 </svg>
                 <svg className="absolute top-[75%] right-[10%] w-7 h-7" viewBox="0 0 24 24" fill="rgba(239,68,68,0.6)">
                     <polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9" />
                 </svg>
-                {/* Canal water effect */}
                 <div className="absolute top-1/3 left-1/4 w-96 h-32 bg-blue-300/10 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-1/3 right-1/4 w-96 h-32 bg-blue-300/10 rounded-full blur-3xl"></div>
-                {/* Tropical elements */}
                 <div className="absolute top-1/4 right-1/4 w-24 h-24 bg-green-300/20 rounded-full blur-2xl"></div>
                 <div className="absolute bottom-1/4 left-1/4 w-20 h-20 bg-yellow-300/20 rounded-full blur-2xl"></div>
             </div>
@@ -127,8 +120,8 @@ export default function QuizPage() {
                                 </div>
 
                                 <div>
-                                    <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">¿Cuántas preguntas?</h1>
-                                    <p className="text-gray-600 text-xs sm:text-sm">Elige la cantidad de preguntas para tu práctica</p>
+                                    <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">¿Cuántas preguntas quieres?</h1>
+                                    <p className="text-gray-600 text-xs sm:text-sm">Elige cuántas preguntas quieres practicar</p>
                                 </div>
 
                                 <div className="space-y-3">
@@ -170,13 +163,13 @@ export default function QuizPage() {
                                     </div>
 
                                     <div>
-                                        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-1 sm:mb-2">¡Examen completado!</h1>
-                                        <p className="text-lg sm:text-xl text-gray-600 mb-1">Obtuviste {score} de {questions.length} correctas</p>
+                                        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-1 sm:mb-2">¡Listo!</h1>
+                                        <p className="text-lg sm:text-xl text-gray-600 mb-1">Tuviste {score} de {questions.length} correctas</p>
                                         <p className="text-xs sm:text-sm text-gray-500">Tiempo: {formatTime(elapsedTime)}</p>
                                     </div>
 
                                     <div className="bg-gray-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 max-h-64 sm:max-h-96 overflow-y-auto">
-                                        <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-3 sm:mb-4">Resumen de respuestas</h3>
+                                        <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-3 sm:mb-4">Aquí están tus respuestas</h3>
                                         <div className="space-y-3 sm:space-y-4">
                                             {questions.map((q, index) => (
                                                 <div key={index} className="bg-white rounded-lg sm:rounded-xl p-3 sm:p-4 border border-gray-100">
@@ -209,7 +202,6 @@ export default function QuizPage() {
                                 </div>
                             ) : (
                                 <div className="space-y-6 sm:space-y-8 sm:flex-1 sm:overflow-auto">
-                                    {/* Header */}
                                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-3 sm:space-y-0">
                                         <div className="flex items-center space-x-3 sm:space-x-4">
                                             <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-lg">
@@ -222,7 +214,6 @@ export default function QuizPage() {
                                         </div>
                                     </div>
 
-                                    {/* Question */}
                                     <div className="space-y-4 sm:space-y-6">
                                         <h2 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 leading-relaxed">{currentQuestion.question}</h2>
 
@@ -236,7 +227,6 @@ export default function QuizPage() {
                                             </div>
                                         )}
 
-                                        {/* Options */}
                                         <div className="space-y-2 sm:space-y-3">
                                             {currentQuestion.options.map((option, idx) => (
                                                 <button
@@ -263,7 +253,6 @@ export default function QuizPage() {
                                 </div>
                             )}
 
-                            {/* Navigation - always at bottom on sm: and up */}
                             {selected && (
                                 <div className="text-center pt-4 sm:pt-8 sm:mt-auto">
                                     <button

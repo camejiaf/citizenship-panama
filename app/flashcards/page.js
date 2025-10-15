@@ -31,31 +31,23 @@ export default function FlashcardPage() {
 
     return (
         <main className="relative w-full h-svh flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-red-50">
-            {/* Mola SVG pattern overlay */}
             <MolaPattern className="absolute inset-0 w-full h-full z-0 pointer-events-none opacity-5" style={{ minWidth: '100vw', minHeight: '100vh' }} />
 
-            {/* Panama-themed geometric accents */}
             <div className="absolute inset-0 overflow-hidden">
-                {/* Panama flag colors - blue section */}
                 <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-blue-200/20 rounded-tr-full"></div>
-                {/* Panama flag colors - red section */}
                 <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-red-200/20 rounded-bl-full"></div>
-                {/* Panama stars (SVG for color control) */}
                 <svg className="absolute bottom-[54%] left-[10%] w-8 h-8" viewBox="0 0 24 24" fill="rgba(59,130,246,0.85)">
                     <polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9" />
                 </svg>
                 <svg className="absolute top-[60%] right-[10%] w-7 h-7" viewBox="0 0 24 24" fill="rgba(239,68,68,0.85)">
                     <polygon points="12,2 15,9 22,9.5 17,14.5 18.5,22 12,18 5.5,22 7,14.5 2,9.5 9,9" />
                 </svg>
-                {/* Canal water effect */}
                 <div className="absolute top-1/3 left-1/4 w-96 h-32 bg-blue-300/10 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-1/3 right-1/4 w-96 h-32 bg-blue-300/10 rounded-full blur-3xl"></div>
-                {/* Tropical elements */}
                 <div className="absolute top-1/4 right-1/4 w-24 h-24 bg-green-300/20 rounded-full blur-2xl"></div>
                 <div className="absolute bottom-1/4 left-1/4 w-20 h-20 bg-yellow-300/20 rounded-full blur-2xl"></div>
             </div>
 
-            {/* Flashcard Content */}
             <div className="z-10 w-full max-w-xl text-center px-2 sm:px-4 py-4 sm:py-10 pb-16 sm:pb-10">
                 <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-xl border border-white/20 mb-4 sm:mb-6 w-full max-w-full">
                     <h1 className="text-lg sm:text-2xl font-bold text-gray-800 mb-4 sm:mb-6">Modo Flashcards</h1>
