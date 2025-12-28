@@ -58,7 +58,7 @@ export default function Portfolio() {
                   </div>
                   <div className="aspect-video bg-[#3B82F6] mb-4 flex items-center justify-center">
                     <img
-                      src="/flag_of_panama.svg"
+                      src="/Flag_of_Panama.svg"
                       alt="Panama Citizenship Exam"
                       className="w-32 h-32 sm:w-48 sm:h-48 object-contain"
                     />

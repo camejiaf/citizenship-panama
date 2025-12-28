@@ -14,7 +14,7 @@ export default function Home() {
       <div className="max-w-3xl mx-auto px-6 py-16 sm:py-20">
         <div className="space-y-8 sm:space-y-10">
           <div>
-            <img src="/flag_of_panama.svg" alt="Panama Flag" className="w-32 h-32 sm:w-40 sm:h-40 mb-6" style={{ display: 'block' }} />
+            <img src="/Flag_of_Panama.svg" alt="Panama Flag" className="w-32 h-32 sm:w-40 sm:h-40 mb-6" style={{ display: 'block' }} />
             <h1 className="text-[18px] font-semibold text-black mb-4 tracking-[-0.02em] leading-[1.25]">Examen de Naturalización Panameña</h1>
             <p className="text-[14px] text-black leading-[1.5] mb-6">Preguntas reales del examen, explicaciones fáciles de entender, y todo completamente gratis.</p>
           </div>
