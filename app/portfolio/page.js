@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import PortfolioNavbar from '../components/PortfolioNavbar';
 
 export default function Portfolio() {
@@ -63,12 +64,12 @@ export default function Portfolio() {
                     />
                   </div>
                   <div className="flex gap-3">
-                    <a
+                    <Link
                       href="/"
                       className="text-[14px] text-black hover:underline font-medium"
                     >
                       View Project →
-                    </a>
+                    </Link>
                     <a
                       href="https://github.com/camejiaf/citizenship-panama"
                       target="_blank"
@@ -110,7 +111,7 @@ export default function Portfolio() {
               </h2>
               <div className="space-y-4">
                 <p className="text-[14px] text-black leading-[1.5]">
-                  I'm a software developer based in Panama. After becoming a naturalized citizen, I created a study tool to help others prepare for the citizenship exam.
+                  I&apos;m a software developer based in Panama. After becoming a naturalized citizen, I created a study tool to help others prepare for the citizenship exam.
                 </p>
                 <p className="text-[14px] text-black leading-[1.5]">
                   I believe in building simple, effective solutions that solve real problems. My work focuses on web applications that are fast, accessible, and easy to use.
